@@ -7,7 +7,7 @@ class Application
     req = Rack::Request.new(env)
     
     if req.path == "/items/items.name"
-      name = req.path.split()
+      name = req.path.split("/items")
     else 
       resp.write "Route not found"
       resp.status = 404
