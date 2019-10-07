@@ -9,7 +9,8 @@ class Application
     if req.path == "/items/items.name"
       
     else 
-      resp.write ""
+      resp.write "Route not found"
+      resp.status = 
     end
     
     resp.finish
