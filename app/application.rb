@@ -9,7 +9,7 @@ class Application
     if req.path == "/items/items.name"
       
     else 
-      
+      resp.write ""
     end
     
     resp.finish
