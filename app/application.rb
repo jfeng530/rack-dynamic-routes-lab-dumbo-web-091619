@@ -7,6 +7,9 @@ class Application
     req = Rack::Request.new(env)
     
     if req.path == "/items/items.name"
+    end
+    
+    resp.finish
     
   end 
   
